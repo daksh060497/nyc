@@ -16,7 +16,7 @@
         
     The goal is to produce a regression model to predict the Trip duration.
     
-### Methods used:
+### Techniques used:
     Feature Engineering and EDA.
     Clustering: The co-ordinates were clustered in order to get relevant features.
     Model:
