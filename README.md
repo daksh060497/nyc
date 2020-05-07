@@ -16,16 +16,20 @@
         
     The goal is to produce a regression model to predict the Trip duration.
     
-    Methods used:
-        Feature Engineering and EDA.
-        Clustering: The co-ordinates were clustered in order to get relevant features.
-        Model:
-            Linear Regression, KNN, Decison Tree used as Base learnes.
-            Stacked the base learner models with XGBoost as the final model.
-        Accuracy Metric:
-            RMSLE (Root Mean Squared Log Error)
-            Also used RMSE on log of trip duration as it is the same
+### Methods used:
+    Feature Engineering and EDA.
+    Clustering: The co-ordinates were clustered in order to get relevant features.
+    Model:
+        Linear Regression, KNN, Decison Tree used as Base learnes.
+        Stacked the base learner models with XGBoost as the final model.
+    Accuracy Metric:
+        RMSLE (Root Mean Squared Log Error)
+        Also used RMSE on log of trip duration as it is the same
     
-    RMSLE scores:
-        Base Model: 0.57
-        Final Model: 0.40
+### RMSLE scores:
+    Base Model: 0.57
+    Final Model: 0.40
+    Kaggle: 0.40
+### Kaggle Link for data set:
+    https://www.kaggle.com/c/nyc-taxi-trip-duration
+    
