@@ -19,6 +19,7 @@ The data set contains features like:
 # Our Approach:
 ### Data Processing
 We carried out the standard data pre-processing which includes:
+
     Checking for duplicates and missing values
     Removing outliers as per target variable since the proportion was negligible.
     Splitting the data into train, test and validation using stratified sampling to maintain the target proportion.
@@ -36,10 +37,12 @@ We carried out the standard data pre-processing which includes:
 
 ### Machine Learning Algorithms:
     Approach: 
+    
         Used Linear Regression, KNN, Decison Tree as Base learnes.
         Stacked the base learner models with XGBoost as the final model.
     
     Accuracy Metric:
+    
         RMSLE (Root Mean Squared Log Error)
         Also used RMSE on log of trip duration as it is the same
     
