@@ -7,6 +7,7 @@ The goal is to devise a regression model to predict the Taxi Trip duration using
     Test Data Set Size: 630K
 
 The data set contains features like:
+
     'id' - A unique identifier for each trip (Irrelevent Feature, Hence dropped it)
     'vendor_id' - A code indicating the provider associated with the trip record (Irrelevent Feature, Hence dropped it)
     'pickup_datetime': Time and Date of pick up
