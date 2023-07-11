@@ -1,5 +1,5 @@
 # NYC - Taxi Duration Data Set
-    I have a sample data set of Taxi Trip Duration in the NY City.
+    Description:
         Train Data Set Size: 1.5M
         Test Data Set Size: 630K
 
@@ -30,6 +30,7 @@
     Base Model: 0.57
     Final Model: 0.40
     Kaggle: 0.40
+
 ### Kaggle Link for data set:
     https://www.kaggle.com/c/nyc-taxi-trip-duration
     
