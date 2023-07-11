@@ -2,8 +2,9 @@
 The goal is to devise a regression model to predict the Taxi Trip duration using historic NYC taxi trip data for a time frame of 7 months.
 
 ### Description:
-Train Data Set Size: 1.5M
-Test Data Set Size: 630K
+
+    Train Data Set Size: 1.5M
+    Test Data Set Size: 630K
 
 The data set contains features like:
     'id' - A unique identifier for each trip (Irrelevent Feature, Hence dropped it)
